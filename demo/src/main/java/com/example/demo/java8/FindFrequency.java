@@ -14,6 +14,8 @@ public class FindFrequency {
 		Map<Integer, Long> map = list.stream().collect(Collectors.groupingBy(Integer::intValue, Collectors.counting()));
 		System.out.println(frequencyMap);
 		System.out.println(map);
+		System.out.println("prinln using method reference");
+		list.forEach(System.out::print);
 		
 	}
 }

@@ -21,6 +21,7 @@ public class FunctionChainingExamle {
 		System.out.println(f3.andThen(f4).apply(2));
 		System.out.println(f3.compose(f4).apply(2));
 
+		
 	}
 
 }
